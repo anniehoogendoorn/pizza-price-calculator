@@ -19,4 +19,22 @@ describe('calculatePrice', function() {
     expect(testPizza.calculatePrice()).to.equal(11);
   });
 
+  it("returns the price for one large pizza with one topping", function() {
+    var testPizza = new Pizza(1, 1, "large");
+    expect(testPizza.calculatePrice()).to.equal(13);
+  });
+
+  it("returns the price for one large pizza with one topping", function() {
+    var testPizza = new Pizza(1, 1, "x-large");
+    expect(testPizza.calculatePrice()).to.equal(16);
+  });
+
+  it("returns the price for 2 large pizzas with 2 toppings", function() {
+    var testPizza = new Pizza(2, 2, "x-large");
+    expect(testPizza.calculatePrice()).to.equal(34);
+  });
+
+
+
+
 });
