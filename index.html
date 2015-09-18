@@ -11,40 +11,113 @@
   </head>
   <body>
     <div class="container">
-      <h1>Order a pizza</h1>
+      <h1>Create your own pizza</h1>
 
       <div class='row'>
+        <div class="col-md-6">
 
-      <form id="order-form">
-        <div class="form-group">
-          <select class="form-control" id="topping">
-            <option value="">Choose number of toppings</option>
-              <option value='1'>1</option>
-              <option value='2'>2</option>
-          </select>
+          <form id="order-form">
+            <!-- <div class="form-group">
+              <select class="form-control" id="topping">
+                <option value="">Choose Veggie toppings</option>
+                  <option value='1'>1</option>
+                  <option value='2'>2</option>
+              </select>
+            </div> -->
+            <h4>Choose veggie toppings</h4>
+
+            <div class="checkbox">
+              <label>
+                <input class="veg" type="checkbox" value="artichoke">Artichoke Hearts
+              </label>
+
+              <label>
+                <input class="veg" type="checkbox" value="mushroom">Fresh Mushrooms
+              </label>
+
+              <label>
+                <input class="veg" type="checkbox" value="spinach">Fresh Spinach
+              </label>
+
+              <label>
+                <input class="veg" type="checkbox" value="olives">Black Olives
+              </label>
+
+              <label>
+                <input class="veg" type="checkbox" value="tomatoes">Fresh Tomatoes
+              </label>
+
+              <label>
+                <input class="veg" type="checkbox" value="onions">Red Onions
+              </label>
+            <div>
+
+            <br>
+
+            <h4>Choose meat toppings</h4>
+
+              <div class="checkbox">
+                <label>
+                  <input class="meat" type="checkbox" value="pepperoni">Pepperoni
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="sausage">Italian sausage
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="salami">Salami
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="ham">Slow Roasted Ham
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="bacon">Smoked Bacon
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="chicken">Grilled Chicken
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="pork">Seasoned Pork
+                </label>
+
+              <div>
+
+
+            <br>
+
+            <h4>Choose size</h4>
+
+
+            <div class="form-group">
+              <select class="form-control" id="size">
+                <option value="">Choose size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="x-large">Extra Large</option>
+              </select>
+            </div>
+
+
+            <div class ="form-group">
+              <input type="number" class="form-control" id="quantity" placeholder="How many pizza's">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Calculate Price</button>
+          </form>
         </div>
 
-        <div class="form-group">
-          <select class="form-control" id="size">
-            <option value="">Choose size</option>
-              <option value="small">Small</option>
-              <option value="medium">Medium</option>
-              <option value="large">Large</option>
-              <option value="x-large">Extra Large</option>
-          </select>
-        </div>
+        <!-- add div row and col? -->
 
-
-        <div class ="form-group">
-          <input type="number" class="form-control" id="quantity" placeholder="How many pizza's">
-        </div>
-
-        <button type="submit" class="btn btn-primary">Calculate Price</button>
-      </form>
-
-      <div id="result">
+        <div id="result">
         <h2>Total Price:  $<span id="price"></span></h2>
       </div>
+
     </div>
 
   </body>
