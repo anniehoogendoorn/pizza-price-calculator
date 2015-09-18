@@ -21,6 +21,8 @@ debugger;
 
     var pizzaPrice = newPizza.calculatePrice();
 
+    if (pizzaPrice == 0)
+
     $("#price").text(pizzaPrice);
 
     $("#result").show();
