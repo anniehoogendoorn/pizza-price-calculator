@@ -50,6 +50,11 @@
               <label>
                 <input class="veg" type="checkbox" value="onions">Red Onions
               </label>
+
+              <label>
+                <input class="veg" type="checkbox" value="bell-pepper">Green Bell-Pepper
+              </label>
+
             <div>
 
             <br>
@@ -94,8 +99,8 @@
 
 
             <div class="form-group">
-              <select class="form-control" id="size">
-                <option value="">Choose size</option>
+              <select class="form-control" id="size" placeholder ="small, medium"required >
+                <!-- <option value="">Small, medium, large or extra-large</option> -->
                   <option value="small">Small</option>
                   <option value="medium">Medium</option>
                   <option value="large">Large</option>
@@ -103,9 +108,12 @@
               </select>
             </div>
 
+            <h4>Enter quantity</h4>
+
+
 
             <div class ="form-group">
-              <input type="number" class="form-control" id="quantity" placeholder="How many pizza's">
+              <input type="number" class="form-control" id="quantity" placeholder="i.e. 1" required>
             </div>
 
             <button type="submit" class="btn btn-primary">Calculate Price</button>
@@ -115,7 +123,7 @@
         <!-- add div row and col? -->
 
         <div id="result">
-        <h2>Total Price:  $<span id="price"></span></h2>
+        <h2>Total $<span id="price"></span></h2>
       </div>
 
     </div>
