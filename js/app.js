@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     var newPizza = new Pizza(quantity, pizzaSize);
 
-debugger;
+// debugger;
 
     var veggieTopping = $("input.veg:checkbox:checked").each(function() {
       newPizza.veggieTopping.push(veggieTopping);
@@ -21,7 +21,7 @@ debugger;
 
     var pizzaPrice = newPizza.calculatePrice();
 
-    $("h1").addClass("animated");
+    $("#h1").addClass('bounceIn');
 
     $("#price").text(pizzaPrice);
 
