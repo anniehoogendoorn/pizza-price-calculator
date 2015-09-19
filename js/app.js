@@ -21,7 +21,7 @@ debugger;
 
     var pizzaPrice = newPizza.calculatePrice();
 
-    if (pizzaPrice == 0)
+    $("h1").addClass("animated");
 
     $("#price").text(pizzaPrice);
 
