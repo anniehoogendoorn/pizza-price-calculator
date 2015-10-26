@@ -2,24 +2,37 @@
   display: none;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+h2, h3, h4 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
+.checkbox label {
+  padding-right: 15px;
+  padding-bottom: 4px;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
 body {
   color: #f7f7f7;
-  background-image: url("http://wallbeast.com/wp-content/uploads/2015/08/pizza_14_dominos_wallpaper_hd.jpg");
+  background: url("http://wallbeast.com/wp-content/uploads/2015/08/pizza_14_dominos_wallpaper_hd.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-
+  background-size: cover;
 }
 
 .container {
-  background: rgba(0,0,0, 0.7);
+  background: rgba(0,0,0, 0.8);
   margin-top: 5%;
   border-radius: 25px;
   padding-left: 40px;

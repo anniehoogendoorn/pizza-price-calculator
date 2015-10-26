@@ -1,4 +1,4 @@
-#Find and Replace
+#Create Your Own Pizza
 #####Epicodus exercise 9/18/2015
 
 ####By Annie Hoogendoorn
@@ -16,7 +16,7 @@ This is a web app for a pizza company where a user can order a pizza with differ
 
 ##Technologies Used
 
-JavaScript, Jquery, HTML, CSS and Bootstrap.
+JavaScript, jQuery, HTML, Bootstrap and CSS.
 
 ###Legal
 
