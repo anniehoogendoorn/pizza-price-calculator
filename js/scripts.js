@@ -17,8 +17,13 @@ Pizza.prototype.calculatePrice = function() {
         return (totalPrice + 4) * this.quantity;
     } else if (this.pizzaSize == "x-large") {
         return (totalPrice + 7) * this.quantity;
-    } 
+    }
   };
+
+Pizza.prototype.showImage = function() {
+  
+}
+
 
 
   // function Pizza(quantity, topping, pizzaSize) {
