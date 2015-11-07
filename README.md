@@ -5,7 +5,9 @@
 
 ##Description
 
-This is a web app for a pizza company where a user can order a pizza with different toppings and see the final cost.
+This is a web app for a pizza company where a user can create a pizza with different toppings and see the final cost.
+
+Check it out at: http://anniehoogendoorn.github.io/pizzaJs
 
 ##Setup
 
