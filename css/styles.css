@@ -27,11 +27,10 @@ h1, h2, h3, h4 {
 
 body {
   color: #f7f7f7;
-  background: url("http://wallbeast.com/wp-content/uploads/2015/08/pizza_14_dominos_wallpaper_hd.jpg") no-repeat center center fixed;
+  background: url("/css/img/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   background-size: cover;
 }
 
