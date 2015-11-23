@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 
 body {
   color: #f7f7f7;
-  background: url("/css/img/bg.jpg") no-repeat center center fixed;
+  /*background: url("/css/img/bg.jpg") no-repeat center center fixed;*/
   background: url("http://wallbeast.com/wp-content/uploads/2015/08/pizza_14_dominos_wallpaper_hd.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,6 +39,7 @@ body {
 .container {
   background: rgba(0,0,0, 0.8);
   margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 10%;
   border-radius: 25px;
   width: 750px;
