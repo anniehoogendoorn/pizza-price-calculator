@@ -3,6 +3,7 @@
 }
 
 h1 {
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 
@@ -12,7 +13,7 @@ h2, h3, h4 {
 
 h1, h2, h3, h4 {
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
 
 }
 
@@ -36,9 +37,9 @@ body {
 
 .container {
   background: rgba(0,0,0, 0.8);
-  margin-top: 4%;
+  margin-top: 5%;
+  margin-left: 10%;
   border-radius: 25px;
-  padding-left: 40px;
-  padding-bottom: 30px;
-
+  width: 750px;
+  padding: 40px;
 }

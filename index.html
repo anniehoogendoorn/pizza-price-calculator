@@ -7,116 +7,114 @@
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/app.js"></script>
-
     <title>Create your own pizza</title>
   </head>
   <body>
     <div class="container">
-    <h1>Create your own pizza</h1>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Create your own pizza</h1>
+          <form id="order-form">
 
-    <div class="row">
-      <div class="col-md-6">
-        <form id="order-form">
-
-          <h4>Choose veggie toppings</h4>
-
-          <div class="checkbox">
-            <label>
-              <input class="veg" type="checkbox" value="artichoke">Artichoke Hearts
-            </label>
-
-            <label>
-              <input class="veg" type="checkbox" value="mushroom">Fresh Mushrooms
-            </label>
-
-            <label>
-              <input class="veg" type="checkbox" value="spinach">Fresh Spinach
-            </label>
-
-            <label>
-              <input class="veg" type="checkbox" value="olives">Black Olives
-            </label>
-
-            <label>
-              <input class="veg" type="checkbox" value="tomatoes">Fresh Tomatoes
-            </label>
-
-            <label>
-              <input class="veg" type="checkbox" value="onions">Red Onions
-            </label>
-
-            <label>
-              <input class="veg" type="checkbox" value="bell-pepper">Green Bell-Pepper
-            </label>
-
-          <div>
-
-          <br>
-
-          <h4>Choose meat toppings</h4>
+            <h4>Choose veggie toppings</h4>
 
             <div class="checkbox">
               <label>
-                <input class="meat" type="checkbox" value="pepperoni">Pepperoni
+                <input class="veg" type="checkbox" value="artichoke">Artichoke Hearts
               </label>
 
               <label>
-                <input class="meat" type="checkbox" value="sausage">Italian sausage
+                <input class="veg" type="checkbox" value="mushroom">Fresh Mushrooms
               </label>
 
               <label>
-                <input class="meat" type="checkbox" value="salami">Salami
+                <input class="veg" type="checkbox" value="spinach">Fresh Spinach
               </label>
 
               <label>
-                <input class="meat" type="checkbox" value="ham">Slow Roasted Ham
+                <input class="veg" type="checkbox" value="olives">Black Olives
               </label>
 
               <label>
-                <input class="meat" type="checkbox" value="bacon">Smoked Bacon
+                <input class="veg" type="checkbox" value="tomatoes">Fresh Tomatoes
               </label>
 
               <label>
-                <input class="meat" type="checkbox" value="chicken">Grilled Chicken
+                <input class="veg" type="checkbox" value="onions">Red Onions
               </label>
 
               <label>
-                <input class="meat" type="checkbox" value="pork">Seasoned Pork
+                <input class="veg" type="checkbox" value="bell-pepper">Green Bell-Pepper
               </label>
 
-            <div>
+            </div>
 
+            <br>
 
-          <br>
+            <h4>Choose meat toppings</h4>
 
-          <h4>Choose size</h4>
+              <div class="checkbox">
+                <label>
+                  <input class="meat" type="checkbox" value="pepperoni">Pepperoni
+                </label>
 
-          <div class="form-group">
-            <select class="form-control" id="size" placeholder ="small, medium"required >
-              <!-- <option value="">Small, medium, large or extra-large</option> -->
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
-                <option value="x-large">Extra Large</option>
-            </select>
+                <label>
+                  <input class="meat" type="checkbox" value="sausage">Italian sausage
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="salami">Salami
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="ham">Slow Roasted Ham
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="bacon">Smoked Bacon
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="chicken">Grilled Chicken
+                </label>
+
+                <label>
+                  <input class="meat" type="checkbox" value="pork">Seasoned Pork
+                </label>
+
+              </div>
+
+            <br>
+
+            <h4>Choose size</h4>
+
+            <div class="form-group">
+              <select class="form-control" id="size" placeholder ="small, medium"required >
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="x-large">Extra Large</option>
+              </select>
+            </div>
+
+            <br>
+            <h4>Enter quantity</h4>
+
+            <div class ="form-group">
+              <input type="number" class="form-control" id="quantity" placeholder="Enter a number" required>
+            </div>
+            <br>
+
+            <button type="submit" class="btn btn-success">Calculate Price</button>
+          </form>
+
+          <div id="result">
+            <h2>Total $<span id="price"></span></h2>
           </div>
 
-          <br>
-          <h4>Enter quantity</h4>
-
-          <div class ="form-group">
-            <input type="number" class="form-control" id="quantity" placeholder="Enter a number" required>
-          </div>
-          <br>
-
-          <button type="submit" class="btn btn-success">Calculate Price</button>
-        </form>
-        <div id="result">
-          <h2>Total $<span id="price"></span></h2>
-        </div>
-          </div>
-
-    </div> <!--container -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
 
   </body>
 </html>
